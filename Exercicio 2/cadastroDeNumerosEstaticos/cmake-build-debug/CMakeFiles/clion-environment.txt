@@ -1,0 +1,1 @@
+CMake: 3.6.3@/home/thiago/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/163.13906.4/bin/cmake/bin/cmake

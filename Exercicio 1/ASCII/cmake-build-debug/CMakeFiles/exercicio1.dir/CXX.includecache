@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/thiago/CLionProjects/ASCII/ascii.cpp
+iostream
+-
+stdio_ext.h
+-
+getch.h
+/home/thiago/CLionProjects/ASCII/getch.h
+ascii.h
+/home/thiago/CLionProjects/ASCII/ascii.h
+
+/home/thiago/CLionProjects/ASCII/ascii.h
+
+/home/thiago/CLionProjects/ASCII/getch.cpp
+unistd.h
+-
+termios.h
+-
+stdio.h
+-
+getch.h
+/home/thiago/CLionProjects/ASCII/getch.h
+
+/home/thiago/CLionProjects/ASCII/getch.h
+
+/home/thiago/CLionProjects/ASCII/main.cpp
+ascii.h
+/home/thiago/CLionProjects/ASCII/ascii.h
+

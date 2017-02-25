@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/thiago/CLionProjects/cadastroDeNumerosEstaticos/cadastro.cpp
+iostream
+-
+stdio_ext.h
+-
+cadastro.h
+/home/thiago/CLionProjects/cadastroDeNumerosEstaticos/cadastro.h
+
+/home/thiago/CLionProjects/cadastroDeNumerosEstaticos/cadastro.h
+
+/home/thiago/CLionProjects/cadastroDeNumerosEstaticos/main.cpp
+cadastro.h
+/home/thiago/CLionProjects/cadastroDeNumerosEstaticos/cadastro.h
+

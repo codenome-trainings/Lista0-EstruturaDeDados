@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/exercicio2.dir/main.cpp.o CMakeFiles/exercicio2.dir/cadastro.cpp.o  -o exercicio2 

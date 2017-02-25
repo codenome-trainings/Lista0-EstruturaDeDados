@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/usuariosArquivos.dir/main.cpp.o CMakeFiles/usuariosArquivos.dir/usuario.cpp.o CMakeFiles/usuariosArquivos.dir/getch.cpp.o  -o usuariosArquivos 

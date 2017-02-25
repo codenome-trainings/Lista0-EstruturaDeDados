@@ -1,0 +1,3 @@
+/home/thiago/Desktop/Exercicios Concluidos/Exericicio 7 (FALTA FUNÇÃO DE EXCLUIR)/usuariosArquivos/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/thiago/Desktop/Exercicios Concluidos/Exericicio 7 (FALTA FUNÇÃO DE EXCLUIR)/usuariosArquivos/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/thiago/Desktop/Exercicios Concluidos/Exericicio 7 (FALTA FUNÇÃO DE EXCLUIR)/usuariosArquivos/cmake-build-debug/CMakeFiles/usuariosArquivos.dir
