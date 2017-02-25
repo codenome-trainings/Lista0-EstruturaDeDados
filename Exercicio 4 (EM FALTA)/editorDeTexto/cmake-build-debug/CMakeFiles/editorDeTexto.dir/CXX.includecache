@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/thiago/Desktop/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/ascii.h
+
+/home/thiago/Desktop/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/main.cpp
+ascii.h
+/home/thiago/Desktop/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/ascii.h
+

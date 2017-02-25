@@ -1,0 +1,3 @@
+/home/thiago/Desktop/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/thiago/Desktop/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/thiago/Desktop/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/cmake-build-debug/CMakeFiles/exercicio1.dir

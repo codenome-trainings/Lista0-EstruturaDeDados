@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/editorDeTexto.dir/main.cpp.o  -o editorDeTexto 
