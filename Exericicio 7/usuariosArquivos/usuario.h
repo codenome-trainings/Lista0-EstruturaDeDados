@@ -11,5 +11,5 @@ void listarUsuarios();
 void numeroDeUsuariosCadastrados();
 void sair();
 void insereUsuario(Usuario *pUsuario);
-int contadorDeLinhasDeUmArquivo();
-void removerUltimoNumero();
+int numeroDeUsuarios();
+void removerUltimoUsuario();

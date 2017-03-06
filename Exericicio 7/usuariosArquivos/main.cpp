@@ -37,7 +37,7 @@ void menu() {
             numeroDeUsuariosCadastrados();
             break;
         case '4':
-            removerUltimoNumero();
+            removerUltimoUsuario();
             break;
         default:
             cout << "Opção inválida! Tente novamente..." << endl;

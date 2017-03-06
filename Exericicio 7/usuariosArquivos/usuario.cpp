@@ -16,7 +16,7 @@ void numeroDeUsuariosCadastrados() {
     cout << "Número de usuários cadastrados: " << contadorDeLinhasDeUmArquivo() << endl;
 }
 
-int contadorDeLinhasDeUmArquivo() {
+int numeroDeUsuarios() {
 
     FILE *arquivo;
     int numeroDeLinhas = 0;
@@ -46,7 +46,7 @@ void listarUsuarios() {
         return;
     }
 
-    if(contadorDeLinhasDeUmArquivo() == 0) {
+    if(numeroDeUsuarios() == 0) {
         cout << "Não Há usuários cadastrados" << endl;
         return;
     }
@@ -84,7 +84,7 @@ void listarUsuarios() {
 void cadastrarUsuario() {
 
     Usuario *usuario;
-    int contador = contadorDeLinhasDeUmArquivo();
+    int contador = numeroDeUsuarios();
 
     if(contador > 0) usuario = (Usuario *) realloc(usuario, sizeof(Usuario));
     else usuario = (Usuario *) malloc(sizeof(Usuario));
@@ -137,7 +137,7 @@ void insereUsuario(Usuario *pUsuario) {
 
 }
 
-void removerUltimoNumero() {
+void removerUltimoUsuario() {
 
     FILE *arquivo = fopen("usuarios.csv", "r");
 
@@ -145,7 +145,7 @@ void removerUltimoNumero() {
         cout << "Erro ao criar o arquivo" << endl;
     }
 
-    Usuario *usuarios = (Usuario *) malloc(contadorDeLinhasDeUmArquivo() * sizeof(Usuario));
+    Usuario *usuarios = (Usuario *) malloc(numeroDeUsuarios() * sizeof(Usuario));
 
     char linha[500];
     int i = 0;
