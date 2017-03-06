@@ -54,10 +54,10 @@ RM = /home/thiago/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/163.13906.4/bin
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/thiago/Desktop/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto"
+CMAKE_SOURCE_DIR = "/home/thiago/Desktop/arquivos/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/thiago/Desktop/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/thiago/Desktop/arquivos/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/cmake-build-debug"
 
 #=============================================================================
 # Target rules for target CMakeFiles/exercicio1.dir
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = "/home/thiago/Desktop/Exercicios Concluidos/Exercicio 4 (EM F
 CMakeFiles/exercicio1.dir/all:
 	$(MAKE) -f CMakeFiles/exercicio1.dir/build.make CMakeFiles/exercicio1.dir/depend
 	$(MAKE) -f CMakeFiles/exercicio1.dir/build.make CMakeFiles/exercicio1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/thiago/Desktop/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/cmake-build-debug/CMakeFiles" --progress-num=1,2,3,4 "Built target exercicio1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/thiago/Desktop/arquivos/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/cmake-build-debug/CMakeFiles" --progress-num=1,2,3,4 "Built target exercicio1"
 .PHONY : CMakeFiles/exercicio1.dir/all
 
 # Include target in all.
@@ -76,9 +76,9 @@ all: CMakeFiles/exercicio1.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/exercicio1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/thiago/Desktop/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/cmake-build-debug/CMakeFiles" 4
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/thiago/Desktop/arquivos/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/cmake-build-debug/CMakeFiles" 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/exercicio1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/thiago/Desktop/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/thiago/Desktop/arquivos/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/cmake-build-debug/CMakeFiles" 0
 .PHONY : CMakeFiles/exercicio1.dir/rule
 
 # Convenience name for target.

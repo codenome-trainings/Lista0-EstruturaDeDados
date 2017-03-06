@@ -4,52 +4,10 @@
 #include "usuario.h"
 
 using namespace std;
-
-int quantidadeDeUsuarios = 0;
 Usuario *_usuario;
 
 void sair() {
     free(_usuario);
-}
-
-void removerUltimoNumero() {
-
-    FILE *arquivo;
-
-    char *linha = (char *) malloc(256 * sizeof(char));
-    char *buffer = (char *) malloc(1000 * sizeof(char));
-    char *ponteiro;
-
-    memset(buffer, 0, 1000 * sizeof(char));
-    ponteiro = buffer;
-
-    arquivo = fopen("usuarios", "r");
-
-    if(arquivo == NULL) {
-        cout << "Erro na abertura do arquivo" << endl;
-        return;
-    }
-
-    while(!feof(arquivo)) {
-
-        fgets(linha, 256, arquivo);
-
-        if(sizeof(linha) == true) {
-            strcpy(ponteiro, linha);
-            ponteiro += strlen(linha);
-        }
-    }
-
-    fclose(arquivo);
-    rescreveArquivo(arquivo, buffer);
-    free(linha);
-    free(buffer);
-}
-
-void rescreveArquivo(FILE *arquivo, const char *buffer) {
-    arquivo = fopen("usuarios", "w");
-    fprintf(arquivo, "%s", buffer);
-    fclose(arquivo);
 }
 
 void numeroDeUsuariosCadastrados() {
@@ -68,7 +26,8 @@ int contadorDeLinhasDeUmArquivo() {
         return 0;
     }
 
-    while(EOF != (scanf("%*[^\n]") && scanf("%*c"))) {
+    char linha[500];
+    while(fgets(linha, 500, arquivo)) {
         ++numeroDeLinhas;
     }
 
@@ -87,16 +46,18 @@ void listarUsuarios() {
         return;
     }
 
-    cout << "=========================================================================================================================================================" << endl;
-    printf("| Nome %-25c | RG %-27c | CPF %-26c | Endereço %-41c |\n", espaco, espaco, espaco, espaco);
-    cout << "=========================================================================================================================================================" << endl;
+    cout << "======================================================================================================================================" << endl;
+    printf("| Nome %-25c | RG %-17c | CPF %-17c | Endereço %-41c |\n", espaco, espaco, espaco, espaco);
+    cout << "======================================================================================================================================" << endl;
 
-    for (int i = 1; fgets(saida, sizeof(saida), arquivo) != NULL; ++i) {
+
+    while(fgets(saida, sizeof(saida), arquivo) != NULL) {
         printf("%s", saida);
     }
 
     cout << endl << endl;
 
+    free(saida);
     fclose(arquivo);
 
 }
@@ -105,9 +66,10 @@ void cadastrarUsuario() {
 
     Usuario *usuario;
 
-    usuario = _usuario;
+    int contador = contadorDeLinhasDeUmArquivo();
+    cout << "Contador: " << contador << endl;
 
-    if(quantidadeDeUsuarios > 0) usuario = (Usuario *) realloc(usuario, quantidadeDeUsuarios * sizeof(Usuario));
+    if(contador > 0) usuario = (Usuario *) realloc(usuario, sizeof(Usuario));
     else usuario = (Usuario *) malloc(sizeof(Usuario));
 
     if(!usuario) {
@@ -118,29 +80,25 @@ void cadastrarUsuario() {
     __fpurge(stdin);
     cin.clear();
     cout << "Digite seu nome: ";
-    cin.getline(usuario[quantidadeDeUsuarios].nome, 100);
+    cin.getline(usuario->nome, 100);
 
     __fpurge(stdin);
     cin.clear();
     cout << "Digite seu RG: ";
-    cin.getline(usuario[quantidadeDeUsuarios].rg, 9);
+    cin.getline(usuario->rg, 9);
 
     __fpurge(stdin);
     cin.clear();
     cout << "Digite seu CPF: ";
-    cin.getline(usuario[quantidadeDeUsuarios].cpf, 11);
+    cin.getline(usuario->cpf, 11);
 
     __fpurge(stdin);
     cin.clear();
     cout << "Digite seu Endereço: ";
-    cin.getline(usuario[quantidadeDeUsuarios].endereco, 100);
+    cin.getline(usuario->endereco, 100);
 
-    _usuario = usuario;
-
-    insereUsuario(_usuario);
-
-    quantidadeDeUsuarios++;
-
+    insereUsuario(usuario);
+    free(usuario);
 }
 
 void insereUsuario(Usuario *pUsuario) {
@@ -151,7 +109,7 @@ void insereUsuario(Usuario *pUsuario) {
         cout << "Erro ao criar o arquivo";
     }
 
-    fprintf(arquivo, "| %-30s | %-30s | %-30s | %-50s |\n",
+    fprintf(arquivo, "| %-30s | %-20s | %-21s | %-50s |\n",
             pUsuario->nome,
             pUsuario->rg,
             pUsuario->cpf,
@@ -161,3 +119,14 @@ void insereUsuario(Usuario *pUsuario) {
     fclose(arquivo);
 
 }
+
+//void removerUltimoNumero() {
+//
+//    FILE *arquivo, *copiaDoArquivo;
+//
+//    arquivo = fopen("usuarios", "r");
+//    copiaDoArquivo = fopen("copiaUsuarios", "wr");
+//
+//    for(register int i = )
+//
+//}

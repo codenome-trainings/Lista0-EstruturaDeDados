@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/thiago/Desktop/Exercicios Concluidos/Exericicio 7 (FALTA FUNÇÃO DE EXCLUIR)/usuariosArquivos/getch.cpp" "/home/thiago/Desktop/Exercicios Concluidos/Exericicio 7 (FALTA FUNÇÃO DE EXCLUIR)/usuariosArquivos/cmake-build-debug/CMakeFiles/usuariosArquivos.dir/getch.cpp.o"
-  "/home/thiago/Desktop/Exercicios Concluidos/Exericicio 7 (FALTA FUNÇÃO DE EXCLUIR)/usuariosArquivos/main.cpp" "/home/thiago/Desktop/Exercicios Concluidos/Exericicio 7 (FALTA FUNÇÃO DE EXCLUIR)/usuariosArquivos/cmake-build-debug/CMakeFiles/usuariosArquivos.dir/main.cpp.o"
-  "/home/thiago/Desktop/Exercicios Concluidos/Exericicio 7 (FALTA FUNÇÃO DE EXCLUIR)/usuariosArquivos/usuario.cpp" "/home/thiago/Desktop/Exercicios Concluidos/Exericicio 7 (FALTA FUNÇÃO DE EXCLUIR)/usuariosArquivos/cmake-build-debug/CMakeFiles/usuariosArquivos.dir/usuario.cpp.o"
+  "/home/thiago/Desktop/arquivos/Exercicios Concluidos/Exericicio 7 (FALTA FUNÇÃO DE EXCLUIR)/usuariosArquivos/getch.cpp" "/home/thiago/Desktop/arquivos/Exercicios Concluidos/Exericicio 7 (FALTA FUNÇÃO DE EXCLUIR)/usuariosArquivos/cmake-build-debug/CMakeFiles/usuariosArquivos.dir/getch.cpp.o"
+  "/home/thiago/Desktop/arquivos/Exercicios Concluidos/Exericicio 7 (FALTA FUNÇÃO DE EXCLUIR)/usuariosArquivos/main.cpp" "/home/thiago/Desktop/arquivos/Exercicios Concluidos/Exericicio 7 (FALTA FUNÇÃO DE EXCLUIR)/usuariosArquivos/cmake-build-debug/CMakeFiles/usuariosArquivos.dir/main.cpp.o"
+  "/home/thiago/Desktop/arquivos/Exercicios Concluidos/Exericicio 7 (FALTA FUNÇÃO DE EXCLUIR)/usuariosArquivos/usuario.cpp" "/home/thiago/Desktop/arquivos/Exercicios Concluidos/Exericicio 7 (FALTA FUNÇÃO DE EXCLUIR)/usuariosArquivos/cmake-build-debug/CMakeFiles/usuariosArquivos.dir/usuario.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

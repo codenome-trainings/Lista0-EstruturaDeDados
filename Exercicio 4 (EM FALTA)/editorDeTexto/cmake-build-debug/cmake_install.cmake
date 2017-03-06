@@ -1,4 +1,4 @@
-# Install script for directory: /home/thiago/Desktop/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto
+# Install script for directory: /home/thiago/Desktop/arquivos/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/thiago/Desktop/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/thiago/Desktop/arquivos/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

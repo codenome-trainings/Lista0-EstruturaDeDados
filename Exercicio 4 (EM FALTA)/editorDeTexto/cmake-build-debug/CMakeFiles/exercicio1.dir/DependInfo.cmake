@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/thiago/Desktop/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/ascii.cpp" "/home/thiago/Desktop/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/cmake-build-debug/CMakeFiles/exercicio1.dir/ascii.cpp.o"
-  "/home/thiago/Desktop/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/getch.cpp" "/home/thiago/Desktop/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/cmake-build-debug/CMakeFiles/exercicio1.dir/getch.cpp.o"
-  "/home/thiago/Desktop/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/main.cpp" "/home/thiago/Desktop/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/cmake-build-debug/CMakeFiles/exercicio1.dir/main.cpp.o"
+  "/home/thiago/Desktop/arquivos/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/ascii.cpp" "/home/thiago/Desktop/arquivos/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/cmake-build-debug/CMakeFiles/exercicio1.dir/ascii.cpp.o"
+  "/home/thiago/Desktop/arquivos/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/getch.cpp" "/home/thiago/Desktop/arquivos/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/cmake-build-debug/CMakeFiles/exercicio1.dir/getch.cpp.o"
+  "/home/thiago/Desktop/arquivos/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/main.cpp" "/home/thiago/Desktop/arquivos/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/cmake-build-debug/CMakeFiles/exercicio1.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

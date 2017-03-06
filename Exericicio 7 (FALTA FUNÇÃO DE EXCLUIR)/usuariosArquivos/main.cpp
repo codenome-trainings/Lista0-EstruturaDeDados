@@ -1,6 +1,5 @@
 #include <iostream>
 #include <stdio_ext.h>
-#include "getch.h"
 #include "usuario.h"
 
 using namespace std;
@@ -22,7 +21,7 @@ void menu() {
     cout << "Digite uma opção válida: ";
     cin.clear();
     __fpurge(stdin);
-    escolha = getch();
+    cin >> escolha;
 
     switch (escolha) {
         case '5':
@@ -38,14 +37,14 @@ void menu() {
             numeroDeUsuariosCadastrados();
             break;
         case '4':
-            removerUltimoNumero();
+//            removerUltimoNumero();
             break;
         default:
             cout << "Opção inválida! Tente novamente..." << endl;
     }
 
     __fpurge(stdin);
-    cout << "Pressione qualquer tecla para prosseguir..." << endl;
-    getch();
+    cout << "Pressione ENTER para prosseguir..." << endl;
+    getchar();
     menu();
 }

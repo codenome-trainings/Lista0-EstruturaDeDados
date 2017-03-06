@@ -43,10 +43,10 @@ RM = /home/thiago/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/163.13906.4/bin
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/thiago/Desktop/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto"
+CMAKE_SOURCE_DIR = "/home/thiago/Desktop/arquivos/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/thiago/Desktop/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/thiago/Desktop/arquivos/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/exercicio1.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/exercicio1.dir/flags.make
 
 CMakeFiles/exercicio1.dir/main.cpp.o: CMakeFiles/exercicio1.dir/flags.make
 CMakeFiles/exercicio1.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/thiago/Desktop/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/exercicio1.dir/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exercicio1.dir/main.cpp.o -c "/home/thiago/Desktop/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/thiago/Desktop/arquivos/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/exercicio1.dir/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exercicio1.dir/main.cpp.o -c "/home/thiago/Desktop/arquivos/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/main.cpp"
 
 CMakeFiles/exercicio1.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exercicio1.dir/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/thiago/Desktop/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/main.cpp" > CMakeFiles/exercicio1.dir/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/thiago/Desktop/arquivos/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/main.cpp" > CMakeFiles/exercicio1.dir/main.cpp.i
 
 CMakeFiles/exercicio1.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exercicio1.dir/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/thiago/Desktop/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/main.cpp" -o CMakeFiles/exercicio1.dir/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/thiago/Desktop/arquivos/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/main.cpp" -o CMakeFiles/exercicio1.dir/main.cpp.s
 
 CMakeFiles/exercicio1.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/exercicio1.dir/main.cpp.o.provides.build: CMakeFiles/exercicio1.dir/m
 
 CMakeFiles/exercicio1.dir/ascii.cpp.o: CMakeFiles/exercicio1.dir/flags.make
 CMakeFiles/exercicio1.dir/ascii.cpp.o: ../ascii.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/thiago/Desktop/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/exercicio1.dir/ascii.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exercicio1.dir/ascii.cpp.o -c "/home/thiago/Desktop/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/ascii.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/thiago/Desktop/arquivos/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/exercicio1.dir/ascii.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exercicio1.dir/ascii.cpp.o -c "/home/thiago/Desktop/arquivos/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/ascii.cpp"
 
 CMakeFiles/exercicio1.dir/ascii.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exercicio1.dir/ascii.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/thiago/Desktop/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/ascii.cpp" > CMakeFiles/exercicio1.dir/ascii.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/thiago/Desktop/arquivos/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/ascii.cpp" > CMakeFiles/exercicio1.dir/ascii.cpp.i
 
 CMakeFiles/exercicio1.dir/ascii.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exercicio1.dir/ascii.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/thiago/Desktop/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/ascii.cpp" -o CMakeFiles/exercicio1.dir/ascii.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/thiago/Desktop/arquivos/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/ascii.cpp" -o CMakeFiles/exercicio1.dir/ascii.cpp.s
 
 CMakeFiles/exercicio1.dir/ascii.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/exercicio1.dir/ascii.cpp.o.provides.build: CMakeFiles/exercicio1.dir/
 
 CMakeFiles/exercicio1.dir/getch.cpp.o: CMakeFiles/exercicio1.dir/flags.make
 CMakeFiles/exercicio1.dir/getch.cpp.o: ../getch.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/thiago/Desktop/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/exercicio1.dir/getch.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exercicio1.dir/getch.cpp.o -c "/home/thiago/Desktop/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/getch.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/thiago/Desktop/arquivos/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/exercicio1.dir/getch.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exercicio1.dir/getch.cpp.o -c "/home/thiago/Desktop/arquivos/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/getch.cpp"
 
 CMakeFiles/exercicio1.dir/getch.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exercicio1.dir/getch.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/thiago/Desktop/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/getch.cpp" > CMakeFiles/exercicio1.dir/getch.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/thiago/Desktop/arquivos/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/getch.cpp" > CMakeFiles/exercicio1.dir/getch.cpp.i
 
 CMakeFiles/exercicio1.dir/getch.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exercicio1.dir/getch.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/thiago/Desktop/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/getch.cpp" -o CMakeFiles/exercicio1.dir/getch.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/thiago/Desktop/arquivos/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/getch.cpp" -o CMakeFiles/exercicio1.dir/getch.cpp.s
 
 CMakeFiles/exercicio1.dir/getch.cpp.o.requires:
 
@@ -143,7 +143,7 @@ exercicio1: CMakeFiles/exercicio1.dir/ascii.cpp.o
 exercicio1: CMakeFiles/exercicio1.dir/getch.cpp.o
 exercicio1: CMakeFiles/exercicio1.dir/build.make
 exercicio1: CMakeFiles/exercicio1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/thiago/Desktop/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable exercicio1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/thiago/Desktop/arquivos/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable exercicio1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/exercicio1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -162,6 +162,6 @@ CMakeFiles/exercicio1.dir/clean:
 .PHONY : CMakeFiles/exercicio1.dir/clean
 
 CMakeFiles/exercicio1.dir/depend:
-	cd "/home/thiago/Desktop/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/thiago/Desktop/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto" "/home/thiago/Desktop/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto" "/home/thiago/Desktop/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/cmake-build-debug" "/home/thiago/Desktop/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/cmake-build-debug" "/home/thiago/Desktop/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/cmake-build-debug/CMakeFiles/exercicio1.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/thiago/Desktop/arquivos/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/thiago/Desktop/arquivos/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto" "/home/thiago/Desktop/arquivos/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto" "/home/thiago/Desktop/arquivos/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/cmake-build-debug" "/home/thiago/Desktop/arquivos/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/cmake-build-debug" "/home/thiago/Desktop/arquivos/Exercicios Concluidos/Exercicio 4 (EM FALTA)/editorDeTexto/cmake-build-debug/CMakeFiles/exercicio1.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/exercicio1.dir/depend
 
