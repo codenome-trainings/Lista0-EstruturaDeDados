@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/thiago/Desktop/arquivos/Exercicios Concluidos/Exericicio 7/usuariosArquivos/getch.cpp
+unistd.h
+-
+termios.h
+-
+stdio.h
+-
+getch.h
+/home/thiago/Desktop/arquivos/Exercicios Concluidos/Exericicio 7/usuariosArquivos/getch.h
+
+/home/thiago/Desktop/arquivos/Exercicios Concluidos/Exericicio 7/usuariosArquivos/getch.h
+
+/home/thiago/Desktop/arquivos/Exercicios Concluidos/Exericicio 7/usuariosArquivos/main.cpp
+iostream
+-
+stdio_ext.h
+-
+usuario.h
+/home/thiago/Desktop/arquivos/Exercicios Concluidos/Exericicio 7/usuariosArquivos/usuario.h
+
+/home/thiago/Desktop/arquivos/Exercicios Concluidos/Exericicio 7/usuariosArquivos/usuario.cpp
+iostream
+-
+stdio_ext.h
+-
+cstring
+-
+usuario.h
+/home/thiago/Desktop/arquivos/Exercicios Concluidos/Exericicio 7/usuariosArquivos/usuario.h
+
+/home/thiago/Desktop/arquivos/Exercicios Concluidos/Exericicio 7/usuariosArquivos/usuario.h
+

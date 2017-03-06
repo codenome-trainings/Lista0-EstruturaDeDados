@@ -1,0 +1,3 @@
+/home/thiago/Desktop/arquivos/Exercicios Concluidos/Exericicio 7/usuariosArquivos/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/thiago/Desktop/arquivos/Exercicios Concluidos/Exericicio 7/usuariosArquivos/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/thiago/Desktop/arquivos/Exercicios Concluidos/Exericicio 7/usuariosArquivos/cmake-build-debug/CMakeFiles/usuariosArquivos.dir
